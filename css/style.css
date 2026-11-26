@@ -259,7 +259,7 @@ p { margin: 0 0 1em; }
 /* ---------- En-tête des pages intérieures ---------- */
 .page-hero { padding-block: clamp(3rem, 7vw, 5rem) clamp(1.5rem, 3vw, 2.5rem); position: relative; }
 .page-hero h1 { max-width: 16ch; }
-.squiggle { display: block; width: 140px; height: 16px; color: var(--coral); margin: -.2rem 0 1.4rem; }
+.squiggle { display: block; overflow: visible; width: 140px; height: 16px; color: var(--coral); margin: -.2rem 0 1.4rem; }
 
 /* ---------- Page projet ---------- */
 .project-hero { --c: var(--coral); position: relative; padding-block: clamp(2.5rem, 6vw, 4.5rem) clamp(2rem, 4vw, 3rem); overflow: hidden; }

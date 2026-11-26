@@ -126,7 +126,7 @@ window.PROJETS = [
     logiciels: ["Canva", "Trello", "Google Docs"],
     appris: [
       "Faire un audit à partir de chiffres relevés moi-même et relier chaque problème à son effet sur Google",
-      "Créer des supports print et web qui respectent une direction artistique commune",
+      "Créer des supports print et réseaux sociaux qui respectent une direction artistique commune",
       "Adapter un même message à chaque réseau : LinkedIn pour les entreprises, Facebook pour le public local",
       "Communiquer sur le handisport de façon positive et inclusive"
     ],
@@ -218,41 +218,6 @@ window.PROJETS = [
     images: [
       { src: "images/projets/tuto-avion/1.jpg", legende: "Interview" },
       { src: "images/projets/tuto-avion/2.jpg", legende: "Tournage du tutoriel" }
-    ]
-  },
-
-  {
-    id: "zelda",
-    titre: "Site Zelda Breath of the Wild",
-    sousTitre: "Un site dynamique sur l'univers d'Hyrule, branché sur une base de données",
-    categories: ["web"],
-    infos: ["Projet individuel", "BUT MMI 1"],
-    cover: "images/projets/zelda/cover.jpg",
-    youtube: [],
-    contexte:
-      "Concevoir un site web relié à une base de données, autour d'un lieu. J'ai choisi Hyrule, le monde de Zelda: Breath of the Wild. Le site affiche les lieux, les personnages et les armes du jeu, et permet de les ajouter, les modifier et les supprimer.",
-    role: [
-      "Modélisation des données : un MCD avec plusieurs entités et une relation plusieurs-à-plusieurs",
-      "Wireframe augmenté pour prévoir les requêtes SQL derrière chaque page",
-      "Développement en PHP et MySQL : affichage, ajout, modification et suppression (CRUD), requêtes avec jointures",
-      "Trois interactions en JavaScript natif, sans librairie (clic, survol, manipulation du DOM)",
-      "Suivi du projet avec Git, un commit par étape"
-    ],
-    logiciels: ["VS Code", "PHP", "MySQL", "JavaScript", "Git"],
-    appris: [
-      "Modéliser une base de données avant de coder",
-      "Faire dialoguer PHP et SQL pour générer des pages à partir de données",
-      "Manipuler le DOM en JavaScript natif",
-      "Travailler de façon itérative avec Git"
-    ],
-    resultat:
-      "Un site fonctionnel où les données sont liées entre elles (par exemple, une arme possédée par un personnage précis) et s'affichent comme prévu sur le wireframe de départ.",
-    liens: [],
-    images: [
-      { src: "images/projets/zelda/1.jpg", legende: "Page d'accueil" },
-      { src: "images/projets/zelda/2.jpg", legende: "Liste des personnages" },
-      { src: "images/projets/zelda/3.jpg", legende: "Page d'ajout d'un élément" },
-      { src: "images/projets/zelda/4.jpg", legende: "Le MCD" }
     ]
   }
 ];

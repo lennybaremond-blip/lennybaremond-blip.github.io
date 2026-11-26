@@ -11,8 +11,7 @@
 
   var CATS = {
     graphisme: "Graphisme",
-    video: "Vidéo",
-    web: "Web"
+    video: "Vidéo"
   };
 
   /* ---------- Utilitaires ---------- */
